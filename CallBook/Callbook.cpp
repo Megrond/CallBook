@@ -1,4 +1,4 @@
-#include "Callbook.h"
+ï»¿#include "Callbook.h"
 #include <iostream>
 #include <Windows.h>
 
@@ -6,10 +6,10 @@ using namespace std;
 
 void Callbook::showBook()
 {
-	cout << endl << "Ïîëüçîâàòåëü íîìåð: " << id << endl;
-	cout << "ÔÈÎ: " << fio << endl;
-	cout << "Äîìàøíèé òåëåôîí: " << home_fhone << endl;
-	cout << "Ðàáî÷èé òåëåôîí: " << work_fhone << endl;
-	cout << "Ìîáèëüíûé òåëåôîí: " << user_phone << endl;
-	cout << "Äîïîëíèòåëüíàÿ èíôîðìàöèÿ: " << info << endl; 
+	cout << endl << "ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒ Ð½Ð¾Ð¼ÐµÑ€: " << id << endl;
+	cout << "Ð¤Ð˜Ðž: " << fio << endl;
+	cout << "Ð”Ð¾Ð¼Ð°ÑˆÐ½Ð¸Ð¹ Ñ‚ÐµÐ»ÐµÑ„Ð¾Ð½: " << home_fhone << endl;
+	cout << "Ð Ð°Ð±Ð¾Ñ‡Ð¸Ð¹ Ñ‚ÐµÐ»ÐµÑ„Ð¾Ð½: " << work_fhone << endl;
+	cout << "ÐœÐ¾Ð±Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ Ñ‚ÐµÐ»ÐµÑ„Ð¾Ð½: " << user_phone << endl;
+	cout << "Ð”Ð¾Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð°Ñ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ: " << info << endl; 
 }
