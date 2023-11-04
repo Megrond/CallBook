@@ -8,6 +8,7 @@ unsigned int Callbook::count_instance{ 1 };
 
 int main()
 {
+	system("chcp 1251");
 	setlocale(LC_ALL, "RU");
 
 	Callbook user_one("Romashov V.V.", 84843925555, 84952396548, 89190390232, "Just a good guy!");
