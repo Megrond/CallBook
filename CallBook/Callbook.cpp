@@ -11,5 +11,5 @@ void Callbook::showBook()
 	cout << "Домашний телефон: " << home_fhone << endl;
 	cout << "Рабочий телефон: " << work_fhone << endl;
 	cout << "Мобильный телефон: " << user_phone << endl;
-	cout << "Дополнительная информация: " << info << endl;
+	cout << "Дополнительная информация: " << info << endl; 
 }
