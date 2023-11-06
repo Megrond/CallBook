@@ -26,7 +26,7 @@ public:
 		{
 			strcpy_s(this->fio, strlen(fio) + 1, fio);
 		}
-		if (finfo)
+		if (info)
 		{
 			strcpy_s(this->info, strlen(info) + 1, info);
 		}
