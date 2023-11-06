@@ -22,11 +22,13 @@ public:
 		user_phone{ user_phone },
 		info{ info ? new char[strlen(info) + 1] : nullptr } {
 
-		if (fio || info)
+		if (fio)
 		{
 			strcpy_s(this->fio, strlen(fio) + 1, fio);
+		}
+		if (finfo)
+		{
 			strcpy_s(this->info, strlen(info) + 1, info);
-			
 		}
 		count_instance++;
 	}
