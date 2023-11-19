@@ -18,7 +18,7 @@ public:
 		id { count_instance },
 		fio{ fio ? new char[strlen(fio) + 1] : nullptr },
 		home_fhone{ home_fhone },
-		work_fhone{ work_fhone },
+		work_fhone{ work_fhone }, 
 		user_phone{ user_phone },
 		info{ info ? new char[strlen(info) + 1] : nullptr } {
 
