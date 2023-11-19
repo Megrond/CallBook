@@ -31,7 +31,7 @@ public:
 			strcpy_s(this->info, strlen(info) + 1, info);
 		}
 		count_instance++;
-	}
+	} 
 
 	char const* getFio()
 	{
